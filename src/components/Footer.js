@@ -1,9 +1,17 @@
 import React from 'react'
 import Contato from './Contato'
+import Localizacao from './Mapa'
+import DireitosAutorais from './DireitosAutorais'
 
 function Footer() {
   return (
-    <Contato/>
+    <div>
+      <Contato/>
+      <Localizacao/>
+      <DireitosAutorais/>
+    </div>
+
+    
   )
 }
 
