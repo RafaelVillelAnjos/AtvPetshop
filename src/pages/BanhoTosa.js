@@ -1,10 +1,8 @@
 import React from "react";
-
+import TituloBanhoTosa from "../components/TituloBanhoTosa"
 const BanhoTosa = () => {
 	return (
-		<div>
-			<h1>BanhoTosa</h1>
-		</div>
+		<TituloBanhoTosa />
 	);
 };
 

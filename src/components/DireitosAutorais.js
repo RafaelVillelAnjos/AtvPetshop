@@ -7,15 +7,10 @@ function DireitosAutorais() {
   
   const ano = new Date().getFullYear()
 
-  const bgcolor = { backgroundColor: '#cccccc', padding: '12px', marginTop: '-7px'}
-
-  const alinhar = { textAlign: 'center' }
-
-
   return (
-    <Container fluid style={ bgcolor }>
+    <Container fluid className='direitosAutorais'>
         <Row>
-            <Col style={ alinhar }>
+            <Col>
                 &copy; { ano } Pet Shop - Todos os Direitos Reservados
             </Col>
       </Row>
