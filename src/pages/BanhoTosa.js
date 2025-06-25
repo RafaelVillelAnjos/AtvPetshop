@@ -1,8 +1,12 @@
 import React from "react";
 import TituloBanhoTosa from "../components/TituloBanhoTosa"
+import ContentBanhoTosa from "../components/ContentBanhoTosa";
 const BanhoTosa = () => {
 	return (
-		<TituloBanhoTosa />
+		<div>
+			<TituloBanhoTosa />
+			<ContentBanhoTosa />
+		</div>
 	);
 };
 

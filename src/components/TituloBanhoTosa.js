@@ -7,8 +7,10 @@ function TituloBanhoTosa(){
     return(
         <Container>
             <Row>
-                <Col lg='4' md='4' sm='4'>
-                    
+                <Col lg='6' md='6' sm='6'>
+                    <div class='tituloBanhoTosa'>
+                        <h1>BANHO E TOSA</h1>
+                    </div>
                 </Col>
             </Row>
         </Container>

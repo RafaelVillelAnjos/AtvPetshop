@@ -1,5 +1,3 @@
-
-
 .logo img {
 	height: 100px;
 }
@@ -135,4 +133,53 @@ svg{
 	text-align: center;
 	margin-top: -7px;
 }
-  
+
+.tituloBanhoTosa{
+	border: solid;
+	width: 100%;
+	background-color: #333;
+	margin-left: -100px;
+	margin-top: 20px
+	
+}
+
+.tituloBanhoTosa h1{
+	color: #fff;
+	margin-left: 20px;
+}
+
+.imgContentBT{
+	width: fit-content;
+	/* border: solid; */
+	margin-top: 30px;
+	/* margin-left: 100px; */
+}
+
+.imgContentBT img{
+	width: 500px;
+}
+
+.txtContentBT{
+	margin-top: 35px;
+	margin-left: -40px;
+}
+
+.txtContentBT p{
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.txtContentBT button{
+	margin-top: 10px;
+	color: #fff;
+	background-color: #333;
+	width: 130px;
+	border-radius: 10px;
+}
+
+.txtContentBT button:hover{
+	color: #bebebe;
+	background-color: #292929;
+	transition: 0.2s;
+	transform: scale(0.92, 0.92);
+}
