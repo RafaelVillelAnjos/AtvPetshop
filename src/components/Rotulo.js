@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function TituloBanhoTosa(){
+function TituloBanhoTosa({rotulo}){
     return(
-        <Container>
+        <Container fluid className='px-0'>
             <Row>
-                <Col lg='6' md='6' sm='6'>
+                <Col>
                     <div class='tituloBanhoTosa'>
-                        <h1>BANHO E TOSA</h1>
+                        <h1>{ rotulo }</h1>
                     </div>
                 </Col>
             </Row>

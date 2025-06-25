@@ -138,14 +138,17 @@ svg{
 	border: solid;
 	width: 100%;
 	background-color: #333;
-	margin-left: -100px;
-	margin-top: 20px
-	
+	margin-top: 20px;
+	width: fit-content;
+	padding-right: 300px;
+	padding-left: 10px;
+	padding-top: 5px;
 }
 
 .tituloBanhoTosa h1{
 	color: #fff;
-	margin-left: 20px;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 
 .imgContentBT{
@@ -157,6 +160,7 @@ svg{
 
 .imgContentBT img{
 	width: 500px;
+	height: 100%;
 }
 
 .txtContentBT{
