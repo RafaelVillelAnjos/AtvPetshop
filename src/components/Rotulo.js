@@ -7,7 +7,7 @@ function TituloBanhoTosa({rotulo}){
     return(
         <Container fluid className='px-0'>
             <Row>
-                <Col>
+                <Col lg='6' md='6' sm='6'>
                     <div class='tituloBanhoTosa'>
                         <h1>{ rotulo }</h1>
                     </div>

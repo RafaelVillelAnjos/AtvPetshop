@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 function CallToAction({textoCTA}){
     return(
-        <Container fluid>
+        <Container>
             <Row>
                 <Col>
                     <div class='CTA_div'>

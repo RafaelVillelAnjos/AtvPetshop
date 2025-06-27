@@ -12,7 +12,7 @@ const BanhoTosa = () => {
 			<Rotulo rotulo='Banho e Tosa' />
 			<ContentBanhoTosa imagem={imagem1} textoAltImagem='Foto de um cachorro recebendo o serviço de banho' texto1='cachorro super fofo resgatado da rua ranulpho jose de souza sobrinho, em frente ao choripan floripa, recendo um belo banho, com meus espuma, para virar um cachorro respeitavl de novo. obrigada' texto2='cachorro super fofo resgatado da rua ranulpho jose de souza sobrinho, em frente ao choripan floripa, recendo um belo banho, com meus espuma, para virar um cachorro respeitavl de novo. obrigada '/>
 			<CallToAction textoCTA='Pet care'/>
-			<ContentImgRight imagem={imagem2} textoAlt='Imagem de um cachorro sendo vacinado.'/>
+			<ContentImgRight imagem={imagem2} textoAlt='Imagem de um cachorro sendo vacinado.' texto='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor lobortis sodales. In non nulla sit amet quam porttitor consequat. Nulla facilisi. Maecenas suscipit luctus est, et facilisis velit. Suspendisse rhoncus ultricies porta. Vestibulum interdum nunc volutpat semper porta. Integer mollis laoreet porta.'/>
 		</div>
 	);
 };
