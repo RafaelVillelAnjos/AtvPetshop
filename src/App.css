@@ -64,10 +64,6 @@
 	margin-top: 50px;
 }
 
-.contato{
-
-}
-
 .contato h1{
 	color: white;
 	font-size: 25px;
@@ -109,13 +105,13 @@ input[type='submit']{
 	float: right;
 }
 
-svg{
+.telephone, .location, .whatsapp, .linkedin, .facebook, .instagram{
 	color: #fff;
 	width: 30px;
 	height: 30px;
 }
 
-.svgInstagram{
+.instagram{
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -135,14 +131,14 @@ svg{
 }
 
 .tituloBanhoTosa{
-	border: solid;
 	width: 100%;
 	background-color: #333;
 	margin-top: 20px;
 	width: fit-content;
-	padding-right: 300px;
+	/* padding-right: 300px;
 	padding-left: 10px;
-	padding-top: 5px;
+	padding-top: 5px; */
+	padding: 10px 300px 5px 20px;
 }
 
 .tituloBanhoTosa h1{
@@ -186,4 +182,41 @@ svg{
 	background-color: #292929;
 	transition: 0.2s;
 	transform: scale(0.92, 0.92);
+}
+
+.CTA_div{
+	text-transform: uppercase;
+	width: 80%;
+	background-color: #bebebe;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 30px;
+	padding: 10px 0px 10px 0px;
+}
+
+.txt_CIR_BT button{
+	margin-top: 10px;
+	color: #fff;
+	background-color: #333;
+	width: 130px;
+	border-radius: 10px;
+}
+
+.txt_CIR_BT button:hover{
+	color: #bebebe;
+	background-color: #292929;
+	transition: 0.2s;
+	transform: scale(0.92, 0.92);
+}
+
+.txt_CIR_BT p{
+	margin-bottom: 10px;
+}
+
+.img_CTR{
+	width: 100%;
+	height: 100%;
+	margin-left: -50px;
 }

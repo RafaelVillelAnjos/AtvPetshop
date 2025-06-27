@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function ContentBanhoTosa({imagem, textoAltImagem, texto}){
+function ContentBanhoTosa({imagem, textoAltImagem, texto1, texto2}){
     return(
         <Container>
             <Row>
@@ -15,9 +15,9 @@ function ContentBanhoTosa({imagem, textoAltImagem, texto}){
 
                 <Col lg='6' md='6' sm='12'>
                     <div class='txtContentBT'>
-                        <p>{texto}</p>
+                        <p>{texto1}</p>
 
-                        <p>{texto}</p>
+                        <p>{texto2}</p>
 
                         <button>Saiba mais</button>
                     </div>

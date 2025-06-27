@@ -17,4 +17,4 @@ function TituloBanhoTosa({rotulo}){
     )
 }
 
-export default TituloBanhoTosa
+export default TituloBanhoTosa;
