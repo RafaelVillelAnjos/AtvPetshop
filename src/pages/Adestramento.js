@@ -4,14 +4,20 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import imgBanner from '../imagens/adestramento/banner-adestramento.jpg'
 import Accordion from 'react-bootstrap/Accordion';
+import imgAdestramento1 from '../imagens/adestramento/adestramento1.jpg'
+import imgAdestramento2 from '../imagens/adestramento/adestramento2.jpg'
+import imgAdestramento3 from '../imagens/adestramento/adestramento3.jpg'
+import imgAdestramento4 from '../imagens/adestramento/adestramento4.jpg'
+import imgAdestramento5 from '../imagens/adestramento/adestramento5.jpg'
+
 
 const Adestramento = () => {
 	return (
 		<div>
-			<Container fluid className="px-0">
+			<Container fluid>
 				<Row>
 					<Col lg='12' md='12' sm='12'>
-						<img src={imgBanner} class='bannerAdestramento'/>
+						<img src={imgBanner} class='bannerAdestramento' alt='Banner da página de adestramento'/>
 					</Col>
 				</Row>
 			</Container>
@@ -26,7 +32,23 @@ const Adestramento = () => {
 			</Container>
 
 			<Container>
-				<Accordion defaultActiveKey="0">
+				<Row>
+					<Col>
+						<img src={imgAdestramento1} />
+						<img src={imgAdestramento2} />
+						<img src={imgAdestramento3} />
+						<img src={imgAdestramento4} />
+						<img src={imgAdestramento5} />
+					</Col>
+				</Row>
+			</Container>
+
+			<Container>
+				<Row>
+					<Col>
+					<h2>Perguntas frequentes</h2>
+
+					<Accordion defaultActiveKey="0">
       				<Accordion.Item eventKey="0">
         				<Accordion.Header>Accordion Item #1</Accordion.Header>
         				<Accordion.Body>
@@ -58,6 +80,9 @@ const Adestramento = () => {
         				</Accordion.Body>
       				</Accordion.Item>
 					</Accordion>
+					</Col>
+				</Row>
+
 			</Container>
 		</div>
 
