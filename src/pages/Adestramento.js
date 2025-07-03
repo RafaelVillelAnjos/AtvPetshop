@@ -34,11 +34,13 @@ const Adestramento = () => {
 			<Container>
 				<Row>
 					<Col>
-						<img src={imgAdestramento1} />
-						<img src={imgAdestramento2} />
-						<img src={imgAdestramento3} />
-						<img src={imgAdestramento4} />
-						<img src={imgAdestramento5} />
+						<div class='areaImgAdestramento'>
+							<img src={imgAdestramento1} class='imgAdestramento'/>
+							<img src={imgAdestramento2} class='imgAdestramento'/>
+							<img src={imgAdestramento3} class='imgAdestramento'/>
+							<img src={imgAdestramento4} class='imgAdestramento'/>
+							<img src={imgAdestramento5} class='imgAdestramento'/>
+						</div>
 					</Col>
 				</Row>
 			</Container>
@@ -46,17 +48,17 @@ const Adestramento = () => {
 			<Container>
 				<Row>
 					<Col>
-					<h2>Perguntas frequentes</h2>
+					<h2 class='h2Acordeon'>Perguntas frequentes</h2>
 
 					<Accordion defaultActiveKey="0">
-      				<Accordion.Item eventKey="0">
-        				<Accordion.Header>Accordion Item #1</Accordion.Header>
+      				<Accordion.Item eventKey="0" className="tituloAcordeon">
+        				<Accordion.Header>Qual a melhor idade para adestramneto?</Accordion.Header>
         				<Accordion.Body>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum.
         				</Accordion.Body>
       				</Accordion.Item>
-      				<Accordion.Item eventKey="1">
-        				<Accordion.Header>Accordion Item #2</Accordion.Header>
+      				<Accordion.Item eventKey="1" className="tituloAcordeon">
+        				<Accordion.Header>Toda raça pode ser adestrada?</Accordion.Header>
         				<Accordion.Body>
           					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -67,8 +69,8 @@ const Adestramento = () => {
           					culpa qui officia deserunt mollit anim id est laborum.
         				</Accordion.Body>
       				</Accordion.Item>
-					<Accordion.Item eventKey="2">
-        				<Accordion.Header>Accordion Item #3</Accordion.Header>
+					<Accordion.Item eventKey="2" className="tituloAcordeon">
+        				<Accordion.Header>Quanto tempo leva para o cachorro estra preparado?</Accordion.Header>
         				<Accordion.Body>
           					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

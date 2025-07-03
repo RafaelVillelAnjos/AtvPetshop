@@ -1,10 +1,21 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function HotelResort() {
 	return (
-		<div>
-			<h1>Hotel e Resort</h1>
-		</div>
+		<Container>
+			<Row>
+				<Col>
+				
+				</Col>
+			</Row>
+
+			<Row>
+				
+			</Row>
+		</Container>
 	);
 }
 
