@@ -134,10 +134,7 @@ input[type='submit']{
 	background-color: #333;
 	margin-top: 20px;
 	width: fit-content;
-	padding: 10px 300px 5px 20px;
-}
-
-.tituloBanhoTosa h1{
+	padding: 10px 300px 10px 20px;
 	color: #fff;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -211,11 +208,10 @@ input[type='submit']{
 	width: 100%;
 }
 
-.imgAdestramento{ 
-	width: 180px;
+.areaImgAdestramento img{ 
+	width: 200px;
 	height: 160px;
-	margin-left: 0.2%;
-	margin-right: 0.2%;
+	margin: 0 2px;
 }
 
 .areaImgAdestramento{
@@ -238,9 +234,13 @@ input[type='submit']{
 	margin-top: 0.4%;
 }
 
-.imgResort{
+.linhaImgResort img{
 	width: 180px;
 	height: 180px;
 	margin-left: 0.2%;
 	margin-right: 0.2%;
+}
+
+.textoResort{
+	text-align: justify;
 }

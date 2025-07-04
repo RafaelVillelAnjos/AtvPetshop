@@ -25,21 +25,20 @@ const Adestramento = () => {
 			<Container className="py-3">
 				<Row>
 					<Col>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor lobortis sodales. In non nulla sit amet quam porttitor consequat. Nulla facilisi. Maecenas suscipit luctus est, et facilisis velit. Suspendisse rhoncus ultricies porta. Vestibulum interdum nunc volutpat semper porta. Integer mollis laoreet porta.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor lobortis sodales. In non nulla sit amet quam porttitor consequat. Nulla facilisi. Maecenas suscipit luctus est, et facilisis velit. Suspendisse rhoncus ultricies porta. Vestibulum interdum nunc volutpat semper porta. Integer mollis laoreet porta.</p>
+						<p class='textoResort'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor lobortis sodales. In non nulla sit amet quam porttitor consequat. Nulla facilisi. Maecenas suscipit luctus est, et facilisis velit. Suspendisse rhoncus ultricies porta. Vestibulum interdum nunc volutpat semper porta. Integer mollis laoreet porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor lobortis sodales. In non nulla sit amet quam porttitor consequat. Nulla facilisi. Maecenas suscipit luctus est, et facilisis velit. Suspendisse rhoncus ultricies porta. Vestibulum interdum nunc volutpat semper porta. Integer mollis laoreet porta.</p>
 					</Col>
 				</Row>
 			</Container>
 
 			<Container>
 				<Row>
-					<Col>
-						<div class='areaImgAdestramento'>
-							<img src={imgAdestramento1} class='imgAdestramento'/>
-							<img src={imgAdestramento2} class='imgAdestramento'/>
-							<img src={imgAdestramento3} class='imgAdestramento'/>
-							<img src={imgAdestramento4} class='imgAdestramento'/>
-							<img src={imgAdestramento5} class='imgAdestramento'/>
+					<Col className='areaImgAdestramento'>
+						<div>
+							<img src={imgAdestramento1}/>
+							<img src={imgAdestramento2}/>
+							<img src={imgAdestramento3}/>
+							<img src={imgAdestramento4}/>
+							<img src={imgAdestramento5}/>
 						</div>
 					</Col>
 				</Row>
